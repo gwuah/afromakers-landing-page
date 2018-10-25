@@ -41,7 +41,7 @@ body {
   border-radius: 45px;
 }
 
-.img__container {
+.project__container {
   overflow: hidden;
   /* border: 1px solid green; */
 }
@@ -50,14 +50,54 @@ body {
   margin-bottom: 60px;
 }
 
-.img__container {
-  /* background-color: blueviolet; */
+/* .sample__project {
+  border-radius: 5px;
+} */
+
+.project__container {
   margin-bottom: 30px;
+  border-radius: 5px;
 }
 
-.img__container img {
+.project__container img {
   background-size: cover;
   height: 242px;
   max-width: 100%;
   border-radius: 4px;
+}
+.project__details {
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  width: 92%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  box-sizing: border-box;
+  padding: 80px 40px;
+  border-radius: 5px;
+}
+
+.project__details h2 {
+  font-weight: bold;
+}
+
+.project__details:hover {
+  display: block
+}
+
+.img__overlay {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  /* border: 1px solid red; */
+}
+/* .sample__project:hover {
+} */
+
+a {
+  color: #f8f9fa
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.6)
 }
