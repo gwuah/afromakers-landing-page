@@ -1,0 +1,63 @@
+body {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 16px;
+}
+
+/* .container , .row{
+  border: 1px solid red;
+} */
+
+.introduction {
+  margin-bottom: 60px;
+}
+
+#logo {
+  border-radius: 50%;
+}
+
+.nav-link {
+  font-size: 15px;
+}
+
+.our__statement {
+  padding-top: 140px;
+  min-height: 350px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.our__statement h1 {
+  font-size: 4rem;
+  padding-bottom: 30px;
+}
+
+.our__statement h4 {
+  padding-bottom: 30px;
+}
+
+.afromaker__btn {
+  padding: 20px 45px;
+  border-radius: 45px;
+}
+
+.img__container {
+  overflow: hidden;
+  /* border: 1px solid green; */
+}
+
+.sample__projects {
+  margin-bottom: 60px;
+}
+
+.img__container {
+  /* background-color: blueviolet; */
+  margin-bottom: 30px;
+}
+
+.img__container img {
+  background-size: cover;
+  height: 242px;
+  max-width: 100%;
+  border-radius: 4px;
+}
